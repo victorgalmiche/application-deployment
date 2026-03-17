@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: titanic
-        image: victorgalmiche/application:latest
+        image: victorgalmiche/application:v0.0.1
         ports:
         - containerPort: 8000
         env:
